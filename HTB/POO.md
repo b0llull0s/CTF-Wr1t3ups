@@ -110,7 +110,7 @@ Flag : POO{fffb0767f5bd3cbc22f40ff5011ad666}
 >[!bug] Connect to the database using the credentials
 >- Im using [`mssqlclient.py`](https://github.com/fortra/impacket/blob/master/examples/mssqlclient.py) from `impacket`
 ```sh
-python3 mssqlclient.py external_user:#p00Public3xt3rnalUs3r#@10.13.38.11
+mssqlclient.py external_user:#p00Public3xt3rnalUs3r#@10.13.38.11
 ```
 >[!bug] Start enumerating using `sysdatabases`
 ```sql
